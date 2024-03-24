@@ -1,0 +1,42 @@
+.container {
+  margin: 20px auto;
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+  text-align: left;
+}
+
+.form {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  background-color: aquamarine;
+  border: 20px solid blue;
+}
+
+.form-element {
+  margin: 10px;
+  padding: 5px;
+  text-align: left;
+  border-radius: 5px;
+}
+
+.btn {
+  margin: 20px 10px;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+  background-color: blue;
+  color: #fff;
+}
+
+option {
+  text-align: left;
+}
+
+.errorText {
+  color: red;
+}
